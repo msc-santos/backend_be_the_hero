@@ -1,0 +1,29 @@
+{
+  "name": "backend_be_the_hero",
+  "version": "1.0.0",
+  "description": "Projeto realizado na semana omniStack 11 da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "keywords": [],
+  "author": "Marcos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^12.0.1",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1",
+    "jest": "^25.2.3",
+    "supertest": "^4.0.2"
+  }
+}

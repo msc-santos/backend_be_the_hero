@@ -1,0 +1,7 @@
+const { errors } = require('celebrate')
+
+module.exports = app => {
+  app.use(errors())
+
+  // Depois mover todas as validações para esse arquivo 
+}
